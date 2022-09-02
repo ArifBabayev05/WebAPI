@@ -1,11 +1,10 @@
 ﻿<Properties StartupConfiguration="{D8EE805C-F65F-480A-8F78-519FA19DC015}|Default">
-  <MonoDevelop.Ide.ItemProperties.Exceptions FirstBuild="True" />
+  <MonoDevelop.Ide.ItemProperties.Core FirstBuild="True" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MultiItemStartupConfigurations />
   <MonoDevelop.Ide.DebuggingService.Breakpoints />
   <MonoDevelop.Ide.ItemProperties.Jobly PreferredExecutionTarget="/Applications/Google Chrome.app" />
-  <MonoDevelop.Ide.ItemProperties.Business FirstBuild="True" />
   <MonoDevelop.Ide.Workbench ActiveDocument="DataAccessLayer/Context/AppDbContext.cs">
     <Files>
       <File FileName="Entity/Entities/Company.cs" Line="11" Column="6" />

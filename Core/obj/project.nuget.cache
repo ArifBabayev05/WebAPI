@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "1+hT3GLoMrISDSfYLLtFPIaQzIbvYL7OxmXcNL5KCKFKL/kcG1OjC94uQybUiEnB75SzEhgw6VGZHWp2z/pgGg==",
+  "dgSpecHash": "2e0UYTCNbkxwmWitJHfPJ/FpOiVrUyC9C5IYp4cmGMDJUoasbLE795PtwNqtjbUHrKvDBqC/GA7woVABIXQ7WQ==",
   "success": true,
-  "projectFilePath": "/Users/imac/Desktop/API/Jobly/Business/Business.csproj",
+  "projectFilePath": "/Users/imac/Desktop/API/Jobly/Core/Core.csproj",
   "expectedPackageFiles": [
     "/Users/imac/.nuget/packages/microsoft.csharp/4.5.0/microsoft.csharp.4.5.0.nupkg.sha512",
     "/Users/imac/.nuget/packages/microsoft.data.sqlclient/2.1.4/microsoft.data.sqlclient.2.1.4.nupkg.sha512",

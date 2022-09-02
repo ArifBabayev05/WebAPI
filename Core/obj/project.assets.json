@@ -598,20 +598,6 @@
           }
         }
       },
-      "Core/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v6.0",
-        "dependencies": {
-          "Entity": "1.0.0",
-          "Microsoft.EntityFrameworkCore": "6.0.8"
-        },
-        "compile": {
-          "bin/placeholder/Core.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/Core.dll": {}
-        }
-      },
       "Entity/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
@@ -1790,11 +1776,6 @@
         "version.txt"
       ]
     },
-    "Core/1.0.0": {
-      "type": "project",
-      "path": "../Core/Core.csproj",
-      "msbuildProject": "../Core/Core.csproj"
-    },
     "Entity/1.0.0": {
       "type": "project",
       "path": "../Entity/Entity.csproj",
@@ -1803,7 +1784,6 @@
   },
   "projectFileDependencyGroups": {
     "net6.0": [
-      "Core >= 1.0.0",
       "Entity >= 1.0.0",
       "Microsoft.EntityFrameworkCore >= 6.0.8"
     ]
@@ -1814,11 +1794,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/imac/Desktop/API/Jobly/DataAccessLayer/DataAccessLayer.csproj",
-      "projectName": "DataAccessLayer",
-      "projectPath": "/Users/imac/Desktop/API/Jobly/DataAccessLayer/DataAccessLayer.csproj",
+      "projectUniqueName": "/Users/imac/Desktop/API/Jobly/Core/Core.csproj",
+      "projectName": "Core",
+      "projectPath": "/Users/imac/Desktop/API/Jobly/Core/Core.csproj",
       "packagesPath": "/Users/imac/.nuget/packages/",
-      "outputPath": "/Users/imac/Desktop/API/Jobly/DataAccessLayer/obj/",
+      "outputPath": "/Users/imac/Desktop/API/Jobly/Core/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/imac/.nuget/NuGet/NuGet.Config"
@@ -1833,9 +1813,6 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "/Users/imac/Desktop/API/Jobly/Core/Core.csproj": {
-              "projectPath": "/Users/imac/Desktop/API/Jobly/Core/Core.csproj"
-            },
             "/Users/imac/Desktop/API/Jobly/Entity/Entity.csproj": {
               "projectPath": "/Users/imac/Desktop/API/Jobly/Entity/Entity.csproj"
             }

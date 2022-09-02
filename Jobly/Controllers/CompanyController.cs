@@ -33,7 +33,6 @@ namespace Jobly.Controllers
             {
                 return StatusCode(StatusCodes.Status400BadRequest, new Response(4250, ex.Message));
             }
-            return Ok();
         }
     }
 }
