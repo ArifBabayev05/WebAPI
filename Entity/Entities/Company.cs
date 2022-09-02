@@ -5,9 +5,12 @@ namespace Entity.Entities
 {
     public class Company : BaseEntity,IEntity
     {
-        public string Name { get; set; }
-        public string Mail { get; set; }
-        public string TelNumber { get; set; }
+        public string? Name { get; set; }
+        public string? Mail { get; set; }
+        public string? TelNumber { get; set; }
+
+        public List<CompanyImage>? CompanyImage { get; set; }
+
     }
 }
 

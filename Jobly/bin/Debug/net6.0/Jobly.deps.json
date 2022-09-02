@@ -8,7 +8,9 @@
     ".NETCoreApp,Version=v6.0": {
       "Jobly/1.0.0": {
         "dependencies": {
+          "Business": "1.0.0",
           "DataAccessLayer": "1.0.0",
+          "Exceptions": "1.0.0",
           "Microsoft.EntityFrameworkCore": "6.0.8",
           "Microsoft.EntityFrameworkCore.SqlServer": "6.0.8",
           "Microsoft.EntityFrameworkCore.Tools": "6.0.8",
@@ -482,6 +484,16 @@
           }
         }
       },
+      "Business/1.0.0": {
+        "dependencies": {
+          "DataAccessLayer": "1.0.0",
+          "Entity": "1.0.0",
+          "Exceptions": "1.0.0"
+        },
+        "runtime": {
+          "Business.dll": {}
+        }
+      },
       "DataAccessLayer/1.0.0": {
         "dependencies": {
           "Entity": "1.0.0",
@@ -497,6 +509,11 @@
         },
         "runtime": {
           "Entity.dll": {}
+        }
+      },
+      "Exceptions/1.0.0": {
+        "runtime": {
+          "Exceptions.dll": {}
         }
       }
     }
@@ -850,12 +867,22 @@
       "path": "system.windows.extensions/4.7.0",
       "hashPath": "system.windows.extensions.4.7.0.nupkg.sha512"
     },
+    "Business/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
     "DataAccessLayer/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
     },
     "Entity/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Exceptions/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

@@ -1,10 +1,15 @@
 ﻿using System;
 namespace Entity.DTO.Product
 {
-    public class ProductGetDTO
+    public class CompanyGetDTO
     {
         public int Id { get; set; }
-        public string Name { get; set; }
+        public string? Name { get; set; }
+        public string? TelNumber { get; set; }
+        public string? Mail { get; set; }
+        public string ImageName { get; set; }
+        public DateTime CreatedDate { get; set; }
+
     }
 }
 

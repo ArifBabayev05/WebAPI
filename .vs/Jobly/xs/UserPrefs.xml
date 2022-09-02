@@ -1,6 +1,5 @@
 ﻿<Properties StartupConfiguration="{D8EE805C-F65F-480A-8F78-519FA19DC015}|Default">
-  <MonoDevelop.Ide.ItemProperties.Entity FirstBuild="True" />
-  <MonoDevelop.Ide.ItemProperties.DataAccessLayer FirstBuild="True" />
+  <MonoDevelop.Ide.ItemProperties.Exceptions FirstBuild="True" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MultiItemStartupConfigurations />

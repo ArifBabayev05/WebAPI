@@ -1,7 +1,10 @@
-﻿using System;
+﻿ using System;
+using Business.Base;
+using Entity.Entities;
+
 namespace Business.Services
 {
-    public interface ICompanyService
+    public interface ICompanyService : IBaseService<Company>
     {
     }
 }

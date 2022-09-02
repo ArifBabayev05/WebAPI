@@ -63,3 +63,7 @@
 /Users/imac/Desktop/API/Jobly/Jobly/bin/Debug/net6.0/Entity.dll
 /Users/imac/Desktop/API/Jobly/Jobly/bin/Debug/net6.0/DataAccessLayer.pdb
 /Users/imac/Desktop/API/Jobly/Jobly/bin/Debug/net6.0/Entity.pdb
+/Users/imac/Desktop/API/Jobly/Jobly/bin/Debug/net6.0/Business.dll
+/Users/imac/Desktop/API/Jobly/Jobly/bin/Debug/net6.0/Exceptions.dll
+/Users/imac/Desktop/API/Jobly/Jobly/bin/Debug/net6.0/Business.pdb
+/Users/imac/Desktop/API/Jobly/Jobly/bin/Debug/net6.0/Exceptions.pdb

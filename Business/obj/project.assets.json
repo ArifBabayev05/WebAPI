@@ -624,6 +624,16 @@
         "runtime": {
           "bin/placeholder/Entity.dll": {}
         }
+      },
+      "Exceptions/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/Exceptions.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Exceptions.dll": {}
+        }
       }
     }
   },
@@ -1799,12 +1809,18 @@
       "type": "project",
       "path": "../Entity/Entity.csproj",
       "msbuildProject": "../Entity/Entity.csproj"
+    },
+    "Exceptions/1.0.0": {
+      "type": "project",
+      "path": "../Exceptions/Exceptions.csproj",
+      "msbuildProject": "../Exceptions/Exceptions.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
       "DataAccessLayer >= 1.0.0",
-      "Entity >= 1.0.0"
+      "Entity >= 1.0.0",
+      "Exceptions >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -1837,6 +1853,9 @@
             },
             "/Users/imac/Desktop/API/Jobly/Entity/Entity.csproj": {
               "projectPath": "/Users/imac/Desktop/API/Jobly/Entity/Entity.csproj"
+            },
+            "/Users/imac/Desktop/API/Jobly/Exceptions/Exceptions.csproj": {
+              "projectPath": "/Users/imac/Desktop/API/Jobly/Exceptions/Exceptions.csproj"
             }
           }
         }
